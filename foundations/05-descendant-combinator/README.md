@@ -14,5 +14,6 @@ The properties you need to add are:
 
 
 ### Self Check
-- Do the elements that contain the text "This should be styled" have the correct styles applied?
-- Do the elements that contain the text "This should be unstyled" have no styles applied?
+- Do the elements that contain the text "This should be styled" have the correct styles applied? Yes, they have the correct styles applied which was set through the 
+descendant combinator
+- Do the elements that contain the text "This should be unstyled" have no styles applied? Yes, since they were not part of the ".container .text" class, the rule wasn't applied. (since the combinator checks for .text within the .container class)
