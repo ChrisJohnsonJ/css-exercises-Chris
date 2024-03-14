@@ -14,5 +14,5 @@ Issues with the cascade can be the bane of their existence for many when it come
 
 ### Self Check
 
-- Did you make sure to not edit the HTML file?
-- If you added selectors to the CSS, do they target a valid HTML element?
+- Did you make sure to not edit the HTML file? Yes, none of the classes or ID's were edited in the HTML file
+- If you added selectors to the CSS, do they target a valid HTML element? Yes, I added a div .child selector to target the child within the div class
