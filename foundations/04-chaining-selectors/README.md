@@ -16,6 +16,6 @@ The properties you need to add to each element are:
 ![desired outcome](./desired-outcome.png)
 
 ### Self Check
-- Did you properly chain class selectors for each rule?
-- Does the `proportioned` image retain its original square proportions?
-- Does the `distorted` image end up looking squished and, well, distorted?
+- Did you properly chain class selectors for each rule? Yes, class selectors were chained as .avatar.proportioned and .avatar.distorted for each rule
+- Does the `proportioned` image retain its original square proportions? Yes, the height was set to auto to retain its original square proportions
+- Does the `distorted` image end up looking squished and, well, distorted? Yes, since we hard coded a height, it looks squished 
